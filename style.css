@@ -389,6 +389,8 @@ section .title::after{
 .contact{
     background: white;
     text-align: center;
+    margin: auto;
+    width: 50%;
 }
 .contact .title{
     text-align: center;
@@ -480,7 +482,7 @@ footer{
         margin-bottom: 20px;
     }
     .skills .skills-content .column,
-    .contact .contact-content .column{
+    .contact{
         width: 100%;
         margin-bottom: 35px;
     }
@@ -515,12 +517,8 @@ footer{
     .skills .skills-content .left .text{
         font-size: 19px;
     }
-    .contact .right form .fields{
+    .contact{
         flex-direction: column;
-    }
-    .contact .right form .name,
-    .contact .right form .email{
-        margin: 0;
     }
     .right form .error-box{
        width: 150px;
